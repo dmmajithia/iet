@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/dhawalmajithia/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_63926d8a17d0eaf33cc5fa6a4191115d019dc46e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -21,20 +12,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dhawalmajithia/.android/build-cache/2d5ef77a1c90f538601b7bf47b20a8c3dec4ddcb/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d8c21cff173dddfcfe5c75aef3498a01b55b824/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="088dc718ebb332a72526d7d6aec88f9caccda3b9">
+        sha1="c34149062c79ff45d5876395f5de794b19f1fde2">
         <dex dex="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cc7c8d16a6912a63d8ca342b2ccf2b39ed7d6c74/classes.dex" />
     </item>
 

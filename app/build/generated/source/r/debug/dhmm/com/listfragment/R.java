@@ -477,6 +477,7 @@ containing a value of this type.
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int fragment_blank=0x7f030001;
+        public static final int list_item=0x7f030002;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f020000;
@@ -487,6 +488,8 @@ containing a value of this type.
         public static final int hello_blank_fragment=0x7f050001;
     }
     public static final class style {
+        /**  Customize your theme here. 
+         */
         public static final int AppTheme=0x7f060000;
     }
     public static final class styleable {

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/res/layout/list_item.xml"
+    },
+    {
         "merged": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/res/merged/debug/layout/fragment_blank.xml",
         "source": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/res/layout/fragment_blank.xml"
     },

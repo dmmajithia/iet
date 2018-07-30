@@ -8,11 +8,14 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+
+import static android.R.id.list;
 
 
 /**
@@ -56,7 +59,9 @@ public class BlankFragment extends ListFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null){
+        //System.out.println("hello");
+        //System.out.println(this.getArguments());
+        if (this.getArguments() != null){
             mData = (ArrayList<Data>) getArguments().getSerializable("data");
         }
     }
@@ -65,7 +70,13 @@ public class BlankFragment extends ListFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank, container, false);
+        View view = inflater.inflate(R.layout.fragment_blank, container, false);
+        //listView = (ListView) view.findViewById(R.id.list);
+        if (mData != null){
+            ArrayAdapter<Data> adapter = new ArrayAdapter<Data>(this.getContext(), R.layout.list_item, mData);
+            setListAdapter(adapter);
+        }
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
