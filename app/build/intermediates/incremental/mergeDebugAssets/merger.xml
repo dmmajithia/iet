@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="/Users/dhawalmajithia/.android/build-cache/2d5ef77a1c90f538601b7bf47b20a8c3dec4ddcb/output/assets"/></dataSet><dataSet config="main"><source path="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/assets"/><source path="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/debug/assets"/></dataSet></merger>
