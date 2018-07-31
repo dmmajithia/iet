@@ -16,7 +16,7 @@ public class Data {
 
     }
 
-    public Data Data(JSONObject data){
+    public Data (JSONObject data){
         try{
             mTitle = data.getString("title");
             mContent = data.getString("content");
@@ -29,7 +29,7 @@ public class Data {
             System.out.println(e.getMessage());
         }
 
-        return new Data();
+        //return new Data();
     }
 
 }
