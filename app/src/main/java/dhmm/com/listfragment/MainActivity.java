@@ -2,7 +2,10 @@ package dhmm.com.listfragment;
 
 import android.app.Activity;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
+
+import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -31,8 +34,6 @@ public class MainActivity extends Activity
 
     BlankFragment fragment;
     ArrayList<Data> mData;
-    public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
-    OkHttpClient client = new OkHttpClient();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +44,7 @@ public class MainActivity extends Activity
             @Override
             public void onJsonLoad(ArrayList<Data> data) {
                 mData = data;
-                fragment = BlankFragment.newInstance(mData);
+                fragment = BlankFragment.newInstance(data);
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.fragment, fragment);
                 ft.commit();
@@ -52,34 +53,11 @@ public class MainActivity extends Activity
         task.execute("");
     }
 
-    public void loadListView(){
-
-        try{
-
-
-            ArrayList data = new ArrayList<Data>();
-            JSONObject item = new JSONObject();
-
-            item.put("title", "this is a title");
-            item.put("content", "this is the content");
-            item.put("hasImage", false);
-            item.put("hasUrl", false);
-            //data.add(item);
-            fragment = BlankFragment.newInstance(mData);
-            //Bundle args = new Bundle();
-            //args.putSerializable("data", data);
-            //fragment.setArguments(args);
-            FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment, fragment);
-            ft.commit();
-
-        }
-        catch (Exception e){
-        }
-
-    }
-
     public void onItemSelected(int position){
-
+        Intent intent = new Intent(this, DetailActivity.class);
+        String dataStr = (new Gson()).toJson(mData.get(position));
+        intent.putExtra("data", dataStr);
+        //intent.putExtra("data", dataStr);
+        startActivity(intent);
     }
 }

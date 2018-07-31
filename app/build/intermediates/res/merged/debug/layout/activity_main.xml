@@ -9,8 +9,8 @@
     <fragment
         android:id="@+id/fragment"
         android:name="dhmm.com.listfragment.BlankFragment"
-        android:layout_width="368dp"
-        android:layout_height="495dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         tools:layout="@layout/fragment_blank"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp"

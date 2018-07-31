@@ -10,5 +10,9 @@
     {
         "merged": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/res/merged/debug/layout/activity_detail.xml",
+        "source": "/Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/res/layout/activity_detail.xml"
     }
 ]

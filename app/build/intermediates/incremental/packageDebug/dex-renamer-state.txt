@@ -1,4 +1,4 @@
-#Tue Jul 31 01:36:49 PDT 2018
+#Tue Jul 31 16:28:38 PDT 2018
 base.0=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cc7c8d16a6912a63d8ca342b2ccf2b39ed7d6c74
 renamed.1=classes.dex
 renamed.0=classes2.dex

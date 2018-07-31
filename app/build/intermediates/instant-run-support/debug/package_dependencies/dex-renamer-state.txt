@@ -1,13 +1,16 @@
-#Tue Jul 31 01:36:49 PDT 2018
-renamed.3=classes.dex
+#Tue Jul 31 16:19:12 PDT 2018
+renamed.4=classes.dex
+renamed.3=classes3.dex
 renamed.2=classes2.dex
-renamed.1=classes4.dex
-renamed.0=classes3.dex
-base.3=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d8c21cff173dddfcfe5c75aef3498a01b55b824
+renamed.1=classes5.dex
+base.4=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d8c21cff173dddfcfe5c75aef3498a01b55b824
+renamed.0=classes4.dex
+base.3=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.5_108712031a92a5b9b98dd1111c1e32ff9369e942
 base.2=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_63926d8a17d0eaf33cc5fa6a4191115d019dc46e
 base.1=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.14.0_1dd60feedf4a0963efe2861fc7b5617a04a5972b
 base.0=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.11.0_d7ad8338cefe7276eeaab30f029174d0d2bf8ff9
-file.3=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d8c21cff173dddfcfe5c75aef3498a01b55b824/classes.dex
+file.4=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d8c21cff173dddfcfe5c75aef3498a01b55b824/classes.dex
+file.3=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.5_108712031a92a5b9b98dd1111c1e32ff9369e942/classes.dex
 file.2=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_63926d8a17d0eaf33cc5fa6a4191115d019dc46e/classes.dex
 file.1=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.14.0_1dd60feedf4a0963efe2861fc7b5617a04a5972b/classes.dex
 file.0=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.11.0_d7ad8338cefe7276eeaab30f029174d0d2bf8ff9/classes.dex

@@ -73,7 +73,8 @@ public class BlankFragment extends ListFragment {
         View view = inflater.inflate(R.layout.fragment_blank, container, false);
         //listView = (ListView) view.findViewById(R.id.list);
         if (mData != null){
-            ArrayAdapter<Data> adapter = new ArrayAdapter<Data>(this.getContext(), R.layout.list_item, mData);
+            //ArrayAdapter<Data> adapter = new ArrayAdapter<Data>(this.getContext(), R.layout.list_item, mData);
+            IETArrayAdapter adapter = new IETArrayAdapter(this.getContext(), R.layout.list_item, mData);
             setListAdapter(adapter);
         }
         return view;

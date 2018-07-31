@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml
@@ -14,11 +14,11 @@ ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidMa
 		INJECTED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:7:5-21:19
+ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:7:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dhawalmajithia/.android/build-cache/2d5ef77a1c90f538601b7bf47b20a8c3dec4ddcb/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:10:9-41
@@ -46,6 +46,12 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:18:27-74
+activity#dhmm.com.listfragment.DetailActivity
+ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:21:9-22:67
+	android:parentActivityName
+		ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:22:13-55
+	android:name
+		ADDED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml:21:19-49
 uses-sdk
 INJECTED from /Users/dhawalmajithia/Desktop/iet/ListFragment/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dhawalmajithia/.android/build-cache/2d5ef77a1c90f538601b7bf47b20a8c3dec4ddcb/output/AndroidManifest.xml:5:5-7:41

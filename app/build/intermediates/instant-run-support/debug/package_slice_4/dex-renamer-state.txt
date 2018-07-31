@@ -1,4 +1,4 @@
-#Tue Jul 31 01:36:49 PDT 2018
+#Tue Jul 31 16:19:12 PDT 2018
 base.0=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
 renamed.0=classes.dex
 file.0=/Users/dhawalmajithia/Desktop/iet/ListFragment/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex
